@@ -1,3 +1,10 @@
 @import "~tailwindcss/base";
 @import "~tailwindcss/components";
 @import "~tailwindcss/utilities";
+
+.triangle{
+  width: 0px;
+  height: 0px;
+  border-bottom: 230px solid transparent;
+  border-left: 200px solid #ff8e3c;
+}
