@@ -2,9 +2,31 @@
 @import "~tailwindcss/components";
 @import "~tailwindcss/utilities";
 
+.container-big {
+  @apply 2xl:container 2xl:mx-auto;
+}
+
 .triangle{
   width: 0px;
   height: 0px;
   border-bottom: 230px solid transparent;
   border-left: 200px solid #ff8e3c;
+}
+
+.clip-triangle-orange {
+  clip-path: polygon(0% 100%, 100% 100%, 0% 0%);
+}
+
+.clip-triangle-gray {
+  clip-path: polygon(100% 0%, 0% 0%, 100% 100%);
+}
+
+@media (max-width: 1279px) {
+  .clip-triangle-orange {
+    clip-path: polygon(100% 0%, 100% 100%, 0% 100%, 0% 0%);
+  }
+
+  .clip-triangle-gray {
+    clip-path: polygon(100% 0%, 100% 100%, 0% 100%, 0% 0%);
+  }
 }

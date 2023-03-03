@@ -1,6 +1,6 @@
-# M is For Mono - Sylius Marketplace Plugin
+# Monofony official website
 
-This is a simple repository for the website dedicated to our Sylius Marketplace Plugin
+This is a simple repository for the website dedicated to Monofony.
 
 ## Why?
 
@@ -44,5 +44,5 @@ This project is licensed under MIT.
 
 ## Credits
 
-Created by [Alexandre Balmes](https://alexandre.balmes.co).
+Created by [Amélia MASSOT](https://github.com/Zveltana).
 See also the [thank you](.github/thank-you.md).

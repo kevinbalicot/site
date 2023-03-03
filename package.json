@@ -22,6 +22,7 @@
     "build": "encore production --progress"
   },
   "dependencies": {
-    "npm": "^8.10.0"
+    "npm": "^8.10.0",
+    "tailwindcss-gradients": "^3.0.0"
   }
 }

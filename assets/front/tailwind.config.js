@@ -16,8 +16,12 @@ module.exports = {
       colors: {
         orange: '#ff8e3c',
         black: '#0d0d0d',
+        'black-paragraph': '#2a2a2a',
         pink: '#d9376e',
         'off-white': '#eff0f3',
+      },
+      backgroundImage: {
+        point: "url('images/point.svg')",
       },
     },
   },
